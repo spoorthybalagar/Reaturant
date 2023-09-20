@@ -1,0 +1,42 @@
+/* Gallery container */
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+/* Gallery images */
+.menu-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.menu-images img {
+  max-width: 100px;
+  height: auto;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.menu-images img:hover {
+  border-color: #007BFF; /* Change border color on hover */
+}
+
+/* Current image display */
+.current-image-menu img {
+  max-width: 400px;
+  height: auto;
+  margin-top: 20px;
+  border: 6px;
+  border-color: blue;
+}
+.menu h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: blue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}

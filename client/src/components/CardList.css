@@ -7,6 +7,8 @@
   justify-content: center;
   font-weight: 600;
   font-size: 30px;
+  color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .CardList-body {
